@@ -55,14 +55,7 @@ CODE_DELHI_AQI_DECODED.ipynb   # Main analysis notebook (with outputs)
 
 ## Requirements
 
-python >= 3.9
-pandas
-numpy
-scikit-learn
-xgboost
-shap
-matplotlib
-seaborn
+python >= 3.9, pandas, numpy, scikit-learn, xgboost, shap, matplotlib, seaborn
 
 Install dependencies:
 
@@ -80,8 +73,8 @@ Open `CODE_DELHI_AQI_DECODED.ipynb` in Google Colab or Jupyter and run all cells
 
 ## Authors
 
-Rupashi Maurya, MCA, IGDTUW
-Pranati, MCA, IGDTUW
+- Rupashi Maurya, MCA, IGDTUW
+- Pranati, MCA, IGDTUW
 ---
 
 ## License
