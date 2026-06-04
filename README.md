@@ -6,9 +6,10 @@ A machine learning study of ambient air pollution across the Delhi National Capi
 
 ## Research Questions
 
-1. **Spatial profiling** — Do Delhi NCR monitoring stations fall into structurally distinct pollution clusters, and what emission sources drive each cluster?
-2. **Policy impact** — How much did the COVID-19 lockdown reduce PM2.5? What would eliminating stubble burning or increasing wind dispersion achieve?
-3. **Attribution** — What proportion of AQI variability is explained by meteorology versus human activity?
+- Q1 — What are the dominant pollution profiles across Delhi NCR monitoring stations? Are all stations equally polluted or are some structurally worse?
+- Q2 — How Much Can Policy Help? What is the quantifiable impact of intervention on air quality? 
+- Q3 — Weather or Humans? What proportion of AQI variation is driven by meteorology (wind, temperature, humidity) vs human activity (vehicles, industry)? Can we predict AQI using weather data alone?
+
 
 ---
 
@@ -39,7 +40,6 @@ A machine learning study of ambient air pollution across the Delhi National Capi
 
 - **Random Forest** achieved the best PM2.5 prediction: R² = 0.992, RMSE = 16.76 µg/m³, MAE = 8.84 µg/m³
 - **Three station clusters** identified: *clean* (10 stations), *mixed urban* (8), *high emission* (5 — including Anand Vihar, Bawana, Jahangirpuri)
-- **COVID-19 lockdown** reduced observed PM2.5 by 100.4 µg/m³ (53.7%)
 - **Weather-only models** explain ~89% of AQI variance (R² = 0.889–0.891)
 - **Full-model SHAP**: co-pollutants account for 67.7% of explained PM2.5 variance, temporal/human activity 29.6%, meteorology only 1.5%
 
@@ -80,8 +80,8 @@ Open `CODE_DELHI_AQI_DECODED.ipynb` in Google Colab or Jupyter and run all cells
 
 ## Authors
 
-Rupashi — Environmental Data Science, Delhi NCR Air Quality Study
-
+Rupashi Maurya, MCA, IGDTUW
+Pranati, MCA, IGDTUW
 ---
 
 ## License
